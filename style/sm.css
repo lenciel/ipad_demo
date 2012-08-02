@@ -1,0 +1,198 @@
+
+#container{
+    height: 618px;
+    width: 860px;
+    /*background:url(../img/sc_museum/screen.jpg);*/
+    overflow:hidden;
+    position:relative;
+    padding:12px;
+}
+
+div.ui-content  {
+    margin-top:-5px;
+    height: 500px !important;
+    overflow:hidden !important;
+}
+.ui-header .ui-btn {
+    margin-right:10px;
+    margin-top:5px;
+}
+
+.ui-header {
+    margin-top:-10px;
+    height:50px;
+    background:url(../img/sc_museum/headbar.png) no-repeat;
+}
+.ui-footer {
+    margin-top:-10px;
+    height:67px;
+}
+#entry{
+    /*height: 617px;*/
+    /*overflow:hidden;*/
+    /*position:relative;*/
+    /*background:url(../img/sc_museum/entry_bg.jpg) left bottom;*/
+    margin: 100px 80px;
+    width:600px;
+    height: 500px;
+    /*background:url(../img/sc_museum/left_bg.gif) repeat;*/
+    position:absolute;
+    left: 14px; top: 38px;
+    -moz-border-radius: 4px;
+}
+
+
+.slider-horizontal {
+    width:820px;
+    margin:25px auto;
+    height:100px;
+}
+.slider-horizontal .item {
+    height:75px;
+    width:75px;
+    margin:20px 10px 0;
+}
+
+.slider-vertical {
+    width:364px;
+    margin:25px 0;
+    background:#eee;
+    height:300px;
+}
+ul.boutique_header li{
+
+    width:740px;
+    float: left;
+    padding: 0;
+    margin: 5px 10px 5px 10px;
+    list-style: none;
+}
+ul.boutique_header li.pic {
+    height:394px;
+    width:550px;
+}
+ul.boutique_header li.desc {
+    height:394px;
+    width:170px;
+}
+ul.boutique_header img {
+    padding: 2px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+ul.thumbs li {
+    height:90px;
+    width:80px;
+    float: left;
+    padding: 0;
+    margin: 5px 10px 5px 10px;
+    list-style: none;
+}
+a.thumb {
+    padding: 2px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+ul.thumbs img {
+    border: none;
+    display: block;
+}
+
+ul.boutique_meta li{
+    font-size:12px;
+    width:740px;
+    float: left;
+    padding: 0;
+    margin: 5px 10px 5px 10px;
+    list-style: none;
+}
+ul.boutique_meta li.tag {
+    height:194px;
+    width:170px;
+}
+ul.boutique_meta li.comment {
+    height:194px;
+    width:250px;
+}
+
+ul.boutique_meta li.share {
+    height:194px;
+    width:100px;
+}
+
+.nav-glyphish .ui-btn .ui-btn-inner { padding-top: 40px !important;}
+.nav-glyphish .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+#exhb .ui-icon{ background:  url(../img/sc_museum/icons/exhb_1.png) 50% 50% no-repeat; background-size: 24px 22px; }
+#shopping .ui-icon { background:  url(../img/sc_museum/icons/shopping_1.png) 50% 50% no-repeat;  background-size: 24px 22px; }
+#news .ui-icon { background:  url(../img/sc_museum/icons/news_1.png) 50% 50% no-repeat;  background-size: 24px 22px; }
+#interactive .ui-icon { background:  url(../img/sc_museum/icons/interactive_1.png) 50% 50% no-repeat;  background-size: 24px 22px; }
+#boutique .ui-icon { background:  url(../img/sc_museum/icons/boutique_1.png) 50% 50% no-repeat;  background-size: 24px 22px; }
+
+.heritage ul li{
+    list-style: none;
+    float:left;
+    margin-left:7px;
+    margin-top:0px;
+}
+.heritage ul li img a:hover img{
+    -moz-opacity:0.60 !important;
+    filter:alpha(opacity=60);
+    opacity: 0.6;
+}
+
+.display
+{
+    font-size:12px;
+}
+
+.display ul li
+{
+    width:343px;
+    padding:8px 10px 5px 0px;
+    border-bottom:1px solid #917352;
+    height:132px;
+    float:left;
+    overflow:hidden;
+}
+.display ul li .pe_u_thuem
+{
+    width:173px;
+    height::132px;
+    float:left;
+}
+.display ul li .pe_u_thuem a
+{
+    border:3px solid #9a693c;
+    width:167px;
+    height:124px;
+    float:left;
+}
+.display ul li .pe_u_thuem a img
+{
+    border:1px solid #e9cfa7;
+}
+.display ul li .pe_u_thuem a:hover
+{
+    border:3px solid #a91f23;
+}
+.display ul li .pe_u_title
+{
+    width:152px;
+    float:left;
+    margin-left:5px;
+    display:inline;
+}
+.display ul li .pe_u_title a
+{
+    padding:4px 10px;
+    width:144px;
+    height:29px;
+    line-height:29px;
+    text-align:center;
+    display:block;
+    font-size:14px;
+    font-weight:bold;
+    /*background:url(images/dis_title.gif) no-repeat;*/
+}

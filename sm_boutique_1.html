@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Ipad simulator</title>
+    <meta name="description" content="This is a jquery iPad simulator, this is only an experiment o what can be done with javascript in ast browsers">
+
+    <link rel="stylesheet" href="style/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="style/sm.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="style/jquery.mobile.theme.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="style/jquery.mobile.structure.css" type="text/css" media="screen"/>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile.popup.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div data-role="page" class="header">
+
+            <div data-role="header" data-theme="f">
+            <h1></h1>
+            <a href="sm_app_home.html" data-icon="home" data-iconpos="notext" data-direction="reverse">回首页</a>
+            <a href="sm_app_home.html" data-theme="e" data-mini="true" data-icon="gear" data-icon="gear" class="ui-btn-right">手机用户</a>
+        </div><!-- /header -->
+        <div data-role="content">
+            <div class="main">
+                <ul class="boutique_header">
+                    <li class="pic" style="opacity: 1; ">
+                        <img src="img/sc_museum/demo_big/1.jpg" title="新石器彩陶瓶">
+                    </li>
+
+                    <li class="desc" style="opacity: 0.67; ">
+                        <h2>编号 #1</h2>
+                        <h3>新石器彩陶瓶</h3>
+                        <p><strong>形态特征:</strong><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;泥质陶胎，似竹筒状，腰部略内弧收。卷沿唇口，平底 器上部彩绘，黑彩平行纹和绳索。器表施有红陶衣。</p>
+
+                        <p><strong>尺寸:</strong><br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高17.7厘米<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;口径6.2厘米<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;底径8.3厘米</p>
+
+                        <p><strong>出土地点:</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;巫山大溪遗址发掘</p>
+                        <a href="#popupLogin" data-role="button" data-rel="popup" data-inline="true" data-theme="c" data-mini="true">发表评论</a>
+                        <div data-role="popup" id="popupLogin" data-overlay-theme="a" data-theme="c" class="ui-corner-all">
+                                    <form>
+                                        <div style="padding:10px 20px;">
+                                          <h3>请先登录</h3>
+                                          <label for="un" class="ui-hidden-accessible">用户名:</label>
+                                          <input type="text" name="user" id="un" value="" placeholder="用户名" data-theme="c" />
+
+                                          <label for="pw" class="ui-hidden-accessible">密码:</label>
+                                          <input type="password" name="pw" id="pass" value="" placeholder="密码" data-theme="c" />
+
+                                          <button type="submit" data-theme="b">登录</button>
+                                        </div>
+                                    </form>
+                                </div>
+                    </li>
+                </ul>
+            </div>
+             <div class="meta">
+                <ul class="boutique_meta">
+                    <li class="tag">
+                        <h2>标签</h4>
+                        <p>
+                        <strong>类别: </strong>陶瓷<br/>
+                        <strong>年代: </strong>新石器<br/>
+                        <!-- <strong>规格: </strong>国家一级保护<br/> -->
+                        </p>
+                    </li>
+
+                    <li class="comment">
+                        <h2>评论</h4>
+                        <p>
+                        <strong>网友甲: </strong>真是件好看的器皿<br/>
+                        <strong>网友乙: </strong>我们的祖先太聪明了<br/>
+                        </p>
+                    </li>
+                    <li class="share">
+                        <h2>分享</h2>
+                        <img src="img/sc_museum/weibo.png" title="微博分享">
+                        <img src="img/sc_museum/email.png" title="邮件分享">
+                        <img src="img/sc_museum/evernote.png" title="记录到evernote">
+                    </li>
+
+                </ul>
+            </div>
+        </div><!-- /content -->
+
+        <div data-role="footer" data-role="controlgroup" data-type="horizontal">
+            <div data-role="navbar" class="nav-glyphish" data-grid="d">
+                <ul>
+                    <li><a href="sm_exhb.html" target="house_frame" id="exhb" data-icon="custom">展览活动</a></li>
+                    <li><a href="sm_shopping.html" target="house_frame" id="shopping" data-icon="custom">购物</a></li>
+                    <li><a href="sm_news.html" target="house_frame" id="news" data-icon="custom">新闻</a></li>
+                    <li><a href="sm_interactive.html" target="house_frame" id="interactive" data-icon="custom">用户互动</a></li>
+                    <li><a href="sm_boutique_list.html" target="house_frame" id="boutique" data-icon="custom">精品鉴赏</a></li>
+                </ul>
+            </div><!-- /navbar -->
+        </div><!-- /footer -->
+    </div>
+</body>
+</html>

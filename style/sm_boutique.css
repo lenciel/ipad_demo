@@ -1,0 +1,48 @@
+
+#container{
+    height: 618px;
+    width: 860px;
+    background:url(../img/sc_museum/screen.jpg);
+    overflow:hidden;
+    position:relative;
+    padding:12px;
+}
+
+#entry{
+    /*height: 617px;*/
+    /*overflow:hidden;*/
+    /*position:relative;*/
+    /*background:url(../img/sc_museum/entry_bg.jpg) left bottom;*/
+    margin: 10px 0px;
+    width:600px;
+    height: 520px;
+    /*background:url(../img/sc_museum/left_bg.gif) repeat;*/
+    position:absolute;
+    left: 14px; top: 38px;
+    -moz-border-radius: 4px;
+}
+
+.slider-horizontal {
+    width:820px;
+    margin:25px auto;
+    height:100px;
+}
+
+ul.thumbs li {
+    height:90px;
+    width:80px;
+    float: left;
+    padding: 0;
+    margin: 5px 10px 5px 10px;
+    list-style: none;
+}
+a.thumb {
+    padding: 2px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+ul.thumbs img {
+    border: none;
+    display: block;
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Ipad simulator</title>
+    <meta name="description" content="This is a jquery iPad simulator, this is only an experiment o what can be done with javascript in ast browsers">
+
+
+    <link rel="stylesheet" href="style/jquery.mobile-1.1.1.min.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="style/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="style/sm.css" type="text/css" media="screen"/>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.1.1.min.js"></script>
+    <script src="js/flowslider.jquery.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".slider-horizontal").FlowSlider({
+                infinite: true,
+                startPosition: 0.0,
+                position:0.0,
+                controllers: ["Drag"],
+                animation: "Elastic"
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div data-role="page" class="header">
+
+        <div data-role="header" data-theme="f">
+            <h1></h1>
+            <a href="sm_app_home.html" data-icon="home" data-iconpos="notext" data-direction="reverse">回首页</a>
+            <a href="sm_app_home.html" data-theme="e" data-mini="true" data-icon="gear" data-icon="gear" class="ui-btn-right">手机用户</a>
+        </div><!-- /header -->
+        <div data-role="content">
+            <div id="slider1" class="slider-horizontal">
+            <ul class="thumbs">
+                <li style="opacity: 1; ">
+                    <a class="thumb hoverZoomLink"  href="sm_boutique_1.html" target="house_frame" >
+                        <img src="img/sc_museum/demo_thumb/1.jpg" title="新石器彩陶瓶">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#2" rel="history">
+                        <img src="img/sc_museum/demo_thumb/2.jpg" title="Title #2">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#bigleaf" rel="history">
+                        <img src="img/sc_museum/demo_thumb/3.jpg" title="Title #3">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#lizard" rel="history">
+                        <img src="img/sc_museum/demo_thumb/4.jpg" title="Title #4">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#5" rel="history">
+                        <img src="img/sc_museum/demo_thumb/5.jpg" title="Title #5">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#6" rel="history">
+                        <img src="img/sc_museum/demo_thumb/6.jpg" title="Title #6">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#7" rel="history">
+                        <img src="img/sc_museum/demo_thumb/7.jpg" title="Title #7">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#8" rel="history">
+                        <img src="img/sc_museum/demo_thumb/8.jpg" title="Title #8">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#9" rel="history">
+                        <img src="img/sc_museum/demo_thumb/9.jpg" title="Title #9">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#10" rel="history">
+                        <img src="img/sc_museum/demo_thumb/10.jpg" title="Title #10">
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <div id="slider2" class="slider-horizontal">
+            <ul class="thumbs">
+                <li style="opacity: 1; ">
+                    <a class="thumb hoverZoomLink" href="#11">
+                        <img src="img/sc_museum/demo_thumb/11.jpg" title="Title #11">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#12" rel="history">
+                        <img src="img/sc_museum/demo_thumb/12.jpg" title="Title #12">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#13" rel="history">
+                        <img src="img/sc_museum/demo_thumb/13.jpg" title="Title #13">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#14" rel="history">
+                        <img src="img/sc_museum/demo_thumb/14.jpg" title="Title #14">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#15" rel="history">
+                        <img src="img/sc_museum/demo_thumb/15.jpg" title="Title #15">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#16" rel="history">
+                        <img src="img/sc_museum/demo_thumb/16.jpg" title="Title #16">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#17" rel="history">
+                        <img src="img/sc_museum/demo_thumb/17.jpg" title="Title #17">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#18" rel="history">
+                        <img src="img/sc_museum/demo_thumb/18.jpg" title="Title #18">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#19" rel="history">
+                        <img src="img/sc_museum/demo_thumb/19.jpg" title="Title #19">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#20" rel="history">
+                        <img src="img/sc_museum/demo_thumb/20.jpg" title="Title #20">
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <div id="slider3" class="slider-horizontal">
+            <ul class="thumbs">
+                <li style="opacity: 1; ">
+                    <a class="thumb hoverZoomLink" href="#21">
+                        <img src="img/sc_museum/demo_thumb/21.jpg" title="Title #21">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#22" rel="history">
+                        <img src="img/sc_museum/demo_thumb/22.jpg" title="Title #22">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#23" rel="history">
+                        <img src="img/sc_museum/demo_thumb/23.jpg" title="Title #23">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#24" rel="history">
+                        <img src="img/sc_museum/demo_thumb/24.jpg" title="Title #24">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#25" rel="history">
+                        <img src="img/sc_museum/demo_thumb/25.jpg" title="Title #25">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#26" rel="history">
+                        <img src="img/sc_museum/demo_thumb/26.jpg" title="Title #26">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#27" rel="history">
+                        <img src="img/sc_museum/demo_thumb/27.jpg" title="Title #27">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#28" rel="history">
+                        <img src="img/sc_museum/demo_thumb/28.jpg" title="Title #28">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#29" rel="history">
+                        <img src="img/sc_museum/demo_thumb/29.jpg" title="Title #29">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#30" rel="history">
+                        <img src="img/sc_museum/demo_thumb/30.jpg" title="Title #30">
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <div id="slider4" class="slider-horizontal">
+            <ul class="thumbs">
+                <li style="opacity: 1; ">
+                    <a class="thumb hoverZoomLink" href="#31">
+                        <img src="img/sc_museum/demo_thumb/31.jpg" title="Title #31">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#32" rel="history">
+                        <img src="img/sc_museum/demo_thumb/32.jpg" title="Title #32">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#33" rel="history">
+                        <img src="img/sc_museum/demo_thumb/33.jpg" title="Title #33">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#34" rel="history">
+                        <img src="img/sc_museum/demo_thumb/34.jpg" title="Title #34">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#35" rel="history">
+                        <img src="img/sc_museum/demo_thumb/35.jpg" title="Title #35">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#36" rel="history">
+                        <img src="img/sc_museum/demo_thumb/36.jpg" title="Title #36">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#37" rel="history">
+                        <img src="img/sc_museum/demo_thumb/37.jpg" title="Title #37">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#38" rel="history">
+                        <img src="img/sc_museum/demo_thumb/38.jpg" title="Title #38">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#39" rel="history">
+                        <img src="img/sc_museum/demo_thumb/39.jpg" title="Title #39">
+                    </a>
+
+                </li>
+
+                <li style="opacity: 0.67; ">
+                    <a class="thumb hoverZoomLink" href="#40" rel="history">
+                        <img src="img/sc_museum/demo_thumb/40.jpg" title="Title #40">
+                    </a>
+                </li>
+            </ul>
+        </div><!-- /content -->
+
+        </div>
+            <div data-role="footer" data-role="controlgroup" data-type="horizontal">
+            <div data-role="navbar" class="nav-glyphish" data-grid="d">
+                <ul>
+                    <li><a href="sm_exhb.html" target="house_frame" id="exhb" data-icon="custom">展览活动</a></li>
+                    <li><a href="sm_shopping.html" target="house_frame" id="shopping" data-icon="custom">购物</a></li>
+                    <li><a href="sm_news.html" target="house_frame" id="news" data-icon="custom">新闻</a></li>
+                    <li><a href="sm_interactive.html" target="house_frame" id="interactive" data-icon="custom">用户互动</a></li>
+                    <li><a href="sm_boutique_list.html" target="house_frame" id="boutique" data-icon="custom">精品鉴赏</a></li>
+                </ul>
+            </div><!-- /navbar -->
+        </div><!-- /footer -->
+</body>
+</html>

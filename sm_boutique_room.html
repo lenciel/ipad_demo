@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Ipad simulator</title>
+    <meta name="description" content="This is a jquery iPad simulator, this is only an experiment o what can be done with javascript in ast browsers">
+
+
+    <link rel="stylesheet" href="style/jquery.mobile-1.1.1.min.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="style/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="style/sm.css" type="text/css" media="screen"/>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.1.1.min.js"></script>
+    <script src="js/flowslider.jquery.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".slider-horizontal").FlowSlider({
+                infinite: true,
+                startPosition: 0.0,
+                position:0.0,
+                controllers: ["Drag"],
+                animation: "Elastic"
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div data-role="page" class="header">
+            <div data-role="header" data-theme="f">
+            <h1></h1>
+            <a href="sm_app_home.html" data-icon="home" data-iconpos="notext" data-direction="reverse">回首页</a>
+            <a href="sm_app_home.html" data-theme="e" data-mini="true" data-icon="gear" data-icon="gear" class="ui-btn-right">手机用户</a>
+        </div><!-- /header -->
+        <div data-role="content" class="display">
+            <a href="sm_boutique_list.html" data-role="button" data-inline="true" data-theme="c" data-mini="true">按类别</a>
+            <a href="sm_boutique_room.html" data-role="button" data-inline="true" data-theme="c" data-mini="true">按馆藏</a>
+            <ul>
+            <li>
+              <div class="pe_u_thuem"><a href="sm_boutique.html" target="house_frame">
+                <img src="img/sc_museum/demo_room/201112071749340041.gif" alt="张大千书画馆" width="165" height="122" border="0"></a></div>
+              <div class="pe_u_title"><a href="sm_boutique.html" target="house_frame">张大千书画馆</a>“大风起兮云飞扬，威加海内兮归故乡，安得猛士兮守四方。”这是汉高祖刘邦的《大风…</div>
+            </li>
+            <li>
+              <div class="pe_u_thuem"><a href="sm_boutique.html" target="house_frame"><img src="img/sc_museum/demo_room/201112071753320107.gif" alt="巴蜀青铜馆" width="165" height="122" border="0"></a></div>
+              <div class="pe_u_title"><a href="sm_boutique.html" target="house_frame">巴蜀青铜馆</a>红铜和锡或铅的合金称青铜。作为中国青铜文化重要组成部分，大约在公元前一千六百年左右，巴蜀…</div>
+            </li>
+            <li>
+              <div class="pe_u_thuem"><a href="sm_boutique.html" target="house_frame"><img src="img/sc_museum/demo_room/201112071756497255.gif" alt="万佛寺石刻馆" width="165" height="122" border="0"></a></div>
+              <div class="pe_u_title"><a href="sm_boutique.html" target="house_frame">万佛寺石刻馆</a>万佛寺位于成都市西门外通锦桥，相传建于东汉延熹（公元158—167）年间，是成都著名古刹，从南…</div>
+            </li>
+            <li>
+              <div class="pe_u_thuem"><a href="sm_boutique.html" target="house_frame"><img src="img/sc_museum/demo_room/201112071756048052.gif" alt="四川汉代陶石艺术馆" width="165" height="122" border="0"></a></div>
+              <div class="pe_u_title"><a href="sm_boutique.html" target="house_frame">四川汉代陶石艺术馆</a>两汉时期，是我国历史上一个辉煌的时代。处于封建社会上升时期的中央集权制国家，经济发展、疆…</div>
+            </li>
+            <li>
+              <div class="pe_u_thuem"><a href="sm_boutique.html" target="house_frame"><img src="img/sc_museum/demo_room/201112071755185908.gif" alt="陶瓷馆" width="165" height="122" border="0"></a></div>
+              <div class="pe_u_title"><a href="sm_boutique.html" target="house_frame">陶瓷馆</a>陶瓷对我们来说并不陌生，因为它在我们生活的方方面面随影相伴，它是人类最早的文明成果之一，…</div>
+            </li>
+            <li>
+              <div class="pe_u_thuem"><a href="sm_boutique.html" target="house_frame"><img src="img/sc_museum/demo_room/201112071754287348.gif" alt="书画馆" width="165" height="122" border="0"></a></div>
+              <div class="pe_u_title"><a href="sm_boutique.html" target="house_frame">书画馆</a>中国书画源远流长，在历史发展中形成了鲜明的民族特色，是我国传统民族文化的重要财富。
+
+            四…</div>
+            </li>
+<!--             <li>
+              <div class="pe_u_thuem"><a href="http://www.scmuseum.cn/Soft/GMZN/2011/12/07/87.html" target="_blank"><img src="img/sc_museum/demo_room/201112071752492372.gif" alt="四川民族文物馆" width="165" height="122" border="0"></a></div>
+              <div class="pe_u_title"><a href="http://www.scmuseum.cn/Soft/GMZN/2011/12/07/87.html" target="_blank">四川民族文物馆</a>川西南豪爽的彝家兄弟，川西高原粗犷的藏族汉子，川西北质朴的羌族人家，川南清纯的苗乡少女，…</div>
+            </li>
+             <li>
+              <div class="pe_u_thuem"><a href="http://www.scmuseum.cn/Soft/GMZN/2011/12/07/86.html" target="_blank"><img src=".img/sc_museum/demo_room/201112071752021494.gif" alt="藏传佛教文物馆" width="165" height="122" border="0"></a></div>
+              <div class="pe_u_title"><a href="http://www.scmuseum.cn/Soft/GMZN/2011/12/07/86.html" target="_blank">藏传佛教文物馆</a>藏传佛教是公元7世纪分别由印度和我国汉地传入西藏后，经过三个多世纪与西藏本土宗教“苯教”…</div>
+            </li>
+            <li>
+              <div class="pe_u_thuem"><a href="http://www.scmuseum.cn/Soft/GMZN/2011/12/07/85.html" target="_blank"><img src="img/sc_museum/demo_room/201112311426121981.jpg" alt="共和之光" width="165" height="122" border="0"></a></div>
+              <div class="pe_u_title"><a href="http://www.scmuseum.cn/Soft/GMZN/2011/12/07/85.html" target="_blank">共和之光</a>1911年5月，清政府下令将原由民间集股兴办的粤汉、川汉铁路干线收归国有，并向英法德美四国贷…</div>
+            </li>
+            <li>
+              <div class="pe_u_thuem"><a href="http://www.scmuseum.cn/Soft/GMZN/2011/12/07/84.html" target="_blank"><img src="img/sc_museum/demo_room/201112071750420727.gif" alt="工艺美术馆" width="165" height="122" border="0"></a></div>
+              <div class="pe_u_title"><a href="http://www.scmuseum.cn/Soft/GMZN/2011/12/07/84.html" target="_blank">工艺美术馆</a>在中国工艺品瑰丽宏伟、蔚为壮观的艺术宝库中，玉器、金银器、竹木牙角器、漆器、皮影、鼻烟壶…</div>
+            </li> -->
+
+            </ul>
+        </div><!-- /content -->
+            <div data-role="footer" data-role="controlgroup" data-type="horizontal">
+            <div data-role="navbar" class="nav-glyphish" data-grid="d">
+                <ul>
+                    <li><a href="sm_exhb.html" target="house_frame" id="exhb" data-icon="custom">展览活动</a></li>
+                    <li><a href="sm_shopping.html" target="house_frame" id="shopping" data-icon="custom">购物</a></li>
+                    <li><a href="sm_news.html" target="house_frame" id="news" data-icon="custom">新闻</a></li>
+                    <li><a href="sm_interactive.html" target="house_frame" id="interactive" data-icon="custom">用户互动</a></li>
+                    <li><a href="sm_boutique_list.html" target="house_frame" id="boutique" data-icon="custom">精品鉴赏</a></li>
+                </ul>
+            </div><!-- /navbar -->
+        </div><!-- /footer -->
+        </div>
+    </div>
+</body>
+</html>
