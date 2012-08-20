@@ -17,7 +17,7 @@
         z-index:100;
     }
     </style>
-    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="application/x-javascript" src="js/sm_splash.js"></script>
 </head>
 <body>
