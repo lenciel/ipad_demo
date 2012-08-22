@@ -10,6 +10,5 @@ $('document').ready(function(){
 //help functions
 fns.goto_app = function(){
     var url = "sm_app_home.html";
-    //var url = "sm_app_home.php";
     $(location).attr('href',url);
 };

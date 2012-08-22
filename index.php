@@ -23,6 +23,7 @@ $apps[2] = Array(
 );
 $apps[1] = Array(
     'SM_Demo',
+    'Wharf_Demo',
 );
 $apps[3] = Array(
     'SSG_Demo',
